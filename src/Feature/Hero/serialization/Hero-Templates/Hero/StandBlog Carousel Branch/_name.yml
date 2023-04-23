@@ -1,0 +1,27 @@
+﻿---
+ID: "4f9a966b-033b-4e9f-be9b-05699159f95a"
+Parent: "5de2c483-3d35-4d1b-be54-9aa387e8c08d"
+Template: "add22f05-6b4c-4344-95ad-9a1a9ba6a216"
+Path: /sitecore/templates/Feature/SitecoreShades/Hero/StandBlog Carousel Branch/$name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170705T154205Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a936bab8-9df6-4c4c-bbe2-2ca7b5a5d9a3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220811T075534Z

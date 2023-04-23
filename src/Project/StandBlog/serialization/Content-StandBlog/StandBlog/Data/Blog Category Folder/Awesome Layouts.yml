@@ -1,0 +1,26 @@
+﻿---
+ID: "1abc09c4-12f3-41fc-adcb-352c66231010"
+Parent: "a109adb5-9934-4145-9a62-edcfe053bd6b"
+Template: "e4ada2d0-2369-4a2c-9ab1-853ff099767c"
+Path: /sitecore/content/SitecoreShades/StandBlog/Data/Blog Category Folder/Awesome Layouts
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220814T174244Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0519bcac-6113-4a2d-aa77-e150063cbce1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "caa141dd-7584-4aba-8ba4-342b5e7359cd"
+      Hint: CategoryName
+      Value: Awesome Layouts
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220814T174244Z

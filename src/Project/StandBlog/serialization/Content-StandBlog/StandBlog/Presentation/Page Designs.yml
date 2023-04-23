@@ -1,0 +1,48 @@
+﻿---
+ID: "06cbd62c-8253-46cc-bd7a-1b8c63f8ee20"
+Parent: "ac26806a-f7ce-49ea-875d-9a6c96e162a0"
+Template: "61d4c1a2-56b0-4f33-a1df-ded0804936b6"
+Path: /sitecore/content/SitecoreShades/StandBlog/Presentation/Page Designs
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "4094e091-cf77-4bb1-a004-ada2e2fcb267"
+  Hint: Scripts Optimizing Enabled
+  Value: 0
+- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
+  Hint: TemplatesMapping
+  Value: "%7bD4748A54-89FE-4F74-B832-A794A37FD93F%7d%3d%257B3C3747CF-5980-46CF-9E1A-EE89A31E04D6%257D%26%7b44D72020-2E4B-4DE9-A27A-7800DEA4DA99%7d%3d%257B54B8D698-0720-4B8E-BC31-1C8FCE188C1C%257D%26%7b06E1FAFF-E3FF-43A9-845A-4E5D8E1F4E25%7d%3d%257BE6744454-ED25-4C9F-9991-2AC9408402E0%257D"
+- ID: "c0c88e34-d7e6-46a0-b84f-b0a432d11642"
+  Hint: Theme
+  Value: "%7bFE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3%7d%3d%257B1E64D8F7-60F7-4CE1-B6F8-57BBF0E3DAC0%257D"
+- ID: "e75a4228-26cd-4823-90a6-8d6c58a80cf3"
+  Hint: Styles Optimizing Enabled
+  Value: 0
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{5D5CE43E-D5C6-4C53-89BC-36285DDE8EC9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220802T162857Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "44473765-37dc-4507-a479-52fb87f0a580"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220825T060550Z

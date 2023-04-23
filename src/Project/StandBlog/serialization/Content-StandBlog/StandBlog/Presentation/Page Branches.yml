@@ -1,0 +1,52 @@
+﻿---
+ID: "29fde487-ba01-49e2-9840-8abea14d4d21"
+Parent: "ac26806a-f7ce-49ea-875d-9a6c96e162a0"
+Template: "fbc802e5-4b9e-480f-93da-3f2a80cae5cb"
+Path: /sitecore/content/SitecoreShades/StandBlog/Presentation/Page Branches
+SharedFields:
+- ID: "bb3391dd-f8be-4b2e-ae9f-47bb63c166ce"
+  Hint: Rule
+  Value: |
+    <ruleset>
+      <rule
+        uid="{7B9A3641-9C3F-48F8-BC1F-7A098C7341CE}">
+        <actions>
+          <action
+            id="{D46EC8E5-7B46-47DE-B44A-4C5C30EF48D1}"
+            uid="58D6D61D6996470EB1EB1C7069626AF8"
+            PageBranchId="{A44C0C81-2595-4158-A558-CF257A182E44}" />
+        </actions>
+        <conditions>
+          <condition
+            id="{D0810F9D-734C-452D-BBB6-4730368D68F1}"
+            uid="D67EB2634EAA409FBBF969A67062BE3C"
+            templateid="{D4748A54-89FE-4F74-B832-A794A37FD93F}" />
+        </conditions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220802T162950Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "930ab5d6-4147-47c7-b0d1-8e0c5e635699"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220825T075453Z

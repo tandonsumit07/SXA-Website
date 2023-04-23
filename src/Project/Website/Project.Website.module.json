@@ -1,0 +1,20 @@
+{
+	"namespace": "Project.Website",
+	"references": [ "*Feature.*" ],
+	"items": {
+		"includes": [
+			{
+				"name": "Website-Project",
+				"path": "/sitecore/templates/Project/SitecoreShades",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "Website-Settings",
+				"path": "/sitecore/system/Settings/Feature/SitecoreShades",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			}
+		]
+	}
+}

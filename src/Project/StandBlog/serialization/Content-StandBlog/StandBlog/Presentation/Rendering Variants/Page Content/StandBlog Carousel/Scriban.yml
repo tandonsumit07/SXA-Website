@@ -1,0 +1,53 @@
+﻿---
+ID: "357fd112-604a-49e2-989c-636c349e9eed"
+Parent: "a3520607-7d45-4d26-aa31-9ded5c56f881"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/SitecoreShades/StandBlog/Presentation/Rendering Variants/Page Content/StandBlog Carousel/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{ linkInfo = (sc_link_info i_item 'SlideSubTitle') }}
+    <div class="item">
+               {{ sc_field i_item 'SlideImage' }}
+    
+                <div class="item-content">
+                  <div class="main-content">
+                    <div class="meta-category">
+                      <span> {{ sc_field i_item 'SlideText' }}</span>
+                    </div>
+                    <a href="{{linkInfo.url}}"><h4>{{linkInfo.text}}</h4></a>
+                    <ul class="post-info">
+                      <li><a> {{ sc_field i_item 'SlideAuthor' }}</a></li>
+                      {{datestring= sc_field i_item 'SlideDate'}}
+                      <li><a> {{ date.parse datestring | date.to_string '%b %d, %Y' }}</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220810T053923Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c0473da0-c469-48fb-bd11-089959f96c62"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220810T063920Z

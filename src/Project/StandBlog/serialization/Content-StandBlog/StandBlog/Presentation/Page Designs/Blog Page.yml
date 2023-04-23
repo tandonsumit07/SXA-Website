@@ -1,0 +1,27 @@
+﻿---
+ID: "e6744454-ed25-4c9f-9991-2ac9408402e0"
+Parent: "06cbd62c-8253-46cc-bd7a-1b8c63f8ee20"
+Template: "43cab8db-8bd7-40ae-897c-9984c23823fa"
+Path: /sitecore/content/SitecoreShades/StandBlog/Presentation/Page Designs/Blog Page
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "{6F8E8724-0007-4EBF-98EB-77CF6BA1903B}|{445E3F2B-A6FE-4EF9-AC45-997830C3C066}|{8EA3EAA9-86EE-48CB-9FB2-96B584654327}|{297AA6B3-5848-4191-898A-582CA6BCB6D1}|{351C410E-36CA-4084-8B00-DC0F567F357C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220820T110350Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1666613a-ed0d-47fe-b3e7-77bd1b6279aa"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220820T113913Z

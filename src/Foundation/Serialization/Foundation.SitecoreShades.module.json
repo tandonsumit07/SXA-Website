@@ -1,0 +1,73 @@
+{
+	"namespace": "Foundation.SitecoreShades",
+	"items": {
+		"includes": [
+			{
+				"name": "Templates-Project",
+				"path": "/sitecore/templates/Project/SitecoreShades",
+				"scope": "SingleItem",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "Templates-Feature",
+				"path": "/sitecore/templates/Feature/SitecoreShades",
+				"scope": "SingleItem",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "Templates-Foundation",
+				"path": "/sitecore/templates/Foundation/SitecoreShades",
+				"scope": "SingleItem",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "Branch-Project",
+				"path": "/sitecore/templates/Branches/Project/SitecoreShades",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "Branch-Feature",
+				"path": "/sitecore/templates/Branches/Feature/SitecoreShades",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "Branch-Foundation",
+				"path": "/sitecore/templates/Branches/Foundation/SitecoreShades",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "Rendering-Feature",
+				"path": "/sitecore/layout/Renderings/Feature/SitecoreShades",
+				"scope": "SingleItem",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "System-Settings-Feature",
+				"path": "/sitecore/system/Settings/Feature/SitecoreShades",
+				"scope": "SingleItem",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "Media-library Project",
+				"path": "/sitecore/media library/Project/SitecoreShades",
+				"scope": "SingleItem",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "SitecoreShades Content",
+				"path": "/sitecore/content/SitecoreShades",
+				"scope": "SingleItem",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "SitecoreShades Themes",
+				"path": "/sitecore/media library/Themes/SitecoreShades",
+				"scope": "SingleItem",
+				"allowedPushOperations": "createUpdateAndDelete"
+			}
+		]
+	}
+}

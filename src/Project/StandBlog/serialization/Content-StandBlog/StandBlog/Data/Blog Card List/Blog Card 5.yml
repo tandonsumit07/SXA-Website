@@ -1,0 +1,63 @@
+﻿---
+ID: "f24ca941-ec38-4b32-ba78-31e51e6d2fff"
+Parent: "deddbc0d-3a03-486a-9ce0-fb42cf982bb1"
+Template: "9d509ee2-1a87-4961-99cb-d354f456305f"
+Path: /sitecore/content/SitecoreShades/StandBlog/Data/Blog Card List/Blog Card 5
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2030c3c7-58af-44ba-913b-ba5cebd95d20"
+      Hint: Image
+      Value: |
+        <image mediaid="{C6908497-8CB8-47C2-AEF8-0F3ABA77D503}" alt="image" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220810T073241Z
+    - ID: "2b292644-7677-4eb2-9f98-dc91282641cd"
+      Hint: Detail
+      Value: Nullam at quam ut lacus aliquam tempor vel sed ipsum. Donec pellentesque tincidunt imperdiet. Mauris sit amet justo vulputate, cursus massa congue, vestibulum odio. Aenean elit nunc, gravida in erat sit amet, feugiat viverra leo. Phasellus interdum, diam commodo egestas rhoncus, turpis nisi consectetur nibh, in vehicula eros orci vel neque.
+    - ID: "2d0f333e-41d9-4d3b-92bf-0bed5f673a65"
+      Hint: SubTitle
+      Value: Donec Tincidunt Leo Nec Magna
+    - ID: "4e99d783-eca9-423b-8fa6-2cf45cb131ac"
+      Hint: Date
+      Value: 20220810T073400Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "59fa11d0-c779-4f02-beca-25802331acc2"
+      Hint: Category
+      Value: "{B4C66ECD-4329-4946-BB5E-144993A7137B}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "709d0e09-7e71-46a0-bcf6-bfdc480336fd"
+      Hint: Title
+      Value: FASHION
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "63ef76c6-7c7b-4113-9563-60970556afca"
+    - ID: "a869f1ca-5f7d-4b6d-8dea-d695cbbde57d"
+      Hint: Author
+      Value: Admin
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c3e09a0c-35d6-49df-8101-58c7af6e39bd"
+      Hint: BlogTag
+      Value: |
+        {E24337E2-D743-4519-A520-83DC6D1305D1}
+        {6AE6C0B2-B799-4F83-96AA-92CF9E052BF7}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220814T174414Z
+    - ID: "fda03ead-0edf-4a0c-a85a-f3755b8135f2"
+      Hint: SocialTag
+      Value: |
+        {D45ECA7A-832B-40F0-B8C3-CDEF0570BB81}
+        {21756E42-8A29-4825-A1BE-1D65036076F9}

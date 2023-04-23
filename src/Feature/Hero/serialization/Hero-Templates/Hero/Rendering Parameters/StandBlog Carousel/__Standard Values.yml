@@ -1,0 +1,39 @@
+﻿---
+ID: "2c003ea6-351f-4a0a-b9e0-0f57b6d7e24e"
+Parent: "c6d28310-014c-4f69-b1eb-2a596d600921"
+Template: "c6d28310-014c-4f69-b1eb-2a596d600921"
+Path: /sitecore/templates/Feature/SitecoreShades/Hero/Rendering Parameters/StandBlog Carousel/__Standard Values
+SharedFields:
+- ID: "3094d236-5985-4c4f-ae6a-e30740885532"
+  Hint: Caching
+  Value: 0|0|0|0|0|0|0|0
+- ID: "5f8f0f68-3394-4bda-b08d-8d9e83bc9745"
+  Hint: Navigation
+  Value: "{848DFE42-2B13-430E-A0B9-89CE25730A06}"
+- ID: "935f88f9-7c06-4518-a435-33bcf8653962"
+  Hint: Transition
+  Value: "{D4B706CC-7EEC-4DB9-A87D-123B29803490}"
+- ID: "caee1542-d5ba-4acc-b5a6-f049b8977e91"
+  Hint: PauseOnHover
+  Value: 1
+- ID: "d667aff8-70cf-4958-a4c5-dc9cf5036491"
+  Hint: Timeout
+  Value: 2000
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20111207T101135Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9cb85a56-968f-49ad-b2d4-b9af337963d4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220810T052257Z

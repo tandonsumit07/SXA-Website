@@ -1,0 +1,64 @@
+﻿---
+ID: "6944b123-82d5-4964-a435-c358c43a1c67"
+Parent: "deddbc0d-3a03-486a-9ce0-fb42cf982bb1"
+Template: "9d509ee2-1a87-4961-99cb-d354f456305f"
+Path: /sitecore/content/SitecoreShades/StandBlog/Data/Blog Card List/Blog Card 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2030c3c7-58af-44ba-913b-ba5cebd95d20"
+      Hint: Image
+      Value: |
+        <image mediaid="{A6C6AD25-EB4E-4375-91EB-74D96936B34E}" alt="image" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220810T073241Z
+    - ID: "2b292644-7677-4eb2-9f98-dc91282641cd"
+      Hint: Detail
+      Value: |
+        Stand Blog is a free HTML CSS template for your CMS theme. You can easily adapt or customize it for any kind of CMS or website builder. You are allowed to use it for your business. You are NOT allowed to re-distribute the template ZIP file on any template collection site for the download purpose. <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">Contact TemplateMo</a> for more info. Thank you.
+    - ID: "2d0f333e-41d9-4d3b-92bf-0bed5f673a65"
+      Hint: SubTitle
+      Value: Best Template Website For HTML CSS
+    - ID: "4e99d783-eca9-423b-8fa6-2cf45cb131ac"
+      Hint: Date
+      Value: 20220810T073400Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "59fa11d0-c779-4f02-beca-25802331acc2"
+      Hint: Category
+      Value: "{52F4AA7E-EEC3-49F2-9C32-7A6A31959A45}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "709d0e09-7e71-46a0-bcf6-bfdc480336fd"
+      Hint: Title
+      Value: LIFESTYLE
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "196ef18f-f382-4d4f-824d-5802f39bd182"
+    - ID: "a869f1ca-5f7d-4b6d-8dea-d695cbbde57d"
+      Hint: Author
+      Value: Admin
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c3e09a0c-35d6-49df-8101-58c7af6e39bd"
+      Hint: BlogTag
+      Value: |
+        {E24337E2-D743-4519-A520-83DC6D1305D1}
+        {6AE6C0B2-B799-4F83-96AA-92CF9E052BF7}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220814T174406Z
+    - ID: "fda03ead-0edf-4a0c-a85a-f3755b8135f2"
+      Hint: SocialTag
+      Value: |
+        {D45ECA7A-832B-40F0-B8C3-CDEF0570BB81}
+        {21756E42-8A29-4825-A1BE-1D65036076F9}

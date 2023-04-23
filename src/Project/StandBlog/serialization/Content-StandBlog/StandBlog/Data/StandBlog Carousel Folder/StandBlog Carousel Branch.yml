@@ -1,0 +1,39 @@
+﻿---
+ID: "4ca6ea6d-7c5b-439b-b7a0-e8099bd7334b"
+Parent: "3b06013e-532c-4b9c-81ef-a60d61b3803a"
+Template: "add22f05-6b4c-4344-95ad-9a1a9ba6a216"
+Path: /sitecore/content/SitecoreShades/StandBlog/Data/StandBlog Carousel Folder/StandBlog Carousel Branch
+BranchID: "5de2c483-3d35-4d1b-be54-9aa387e8c08d"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{4F9A966B-033B-4E9F-BE9B-05699159F95A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220811T075655Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "90d1694d-fafd-43e0-a5e0-ffe3721df3f0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220811T124925Z

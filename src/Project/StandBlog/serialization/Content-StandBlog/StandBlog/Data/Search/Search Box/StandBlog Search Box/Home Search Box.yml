@@ -1,0 +1,37 @@
+﻿---
+ID: "a92604b0-68de-44f8-a752-dedfd7fcc530"
+Parent: "6b604d6a-2317-4304-88ec-80d6cbd915ee"
+Template: "1c04fd61-1d87-4590-acfe-9cc186865ab3"
+Path: /sitecore/content/SitecoreShades/StandBlog/Data/Search/Search Box/StandBlog Search Box/Home Search Box
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220811T184355Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7b0dcd82-5a3b-413c-ac54-e3f26ed2c37e"
+      Hint: TextBoxText
+      Value: TYPE TO SEARCH...
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6dee1968-5bd2-496e-b2b3-43086c384891"
+    - ID: "a799c388-0d5e-4196-ac39-addc9f76756c"
+      Hint: SearchButtonText
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220814T162338Z

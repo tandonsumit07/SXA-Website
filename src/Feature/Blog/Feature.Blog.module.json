@@ -1,0 +1,14 @@
+{
+	"namespace": "Feature.Blog",
+	"references": [ "*Foundation.*" ],
+	"items": {
+		"includes": [
+			{
+				"name": "Blog-Templates",
+				"path": "/sitecore/templates/Feature/SitecoreShades/Blog",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			}
+		]
+	}
+}

@@ -1,0 +1,69 @@
+﻿---
+ID: "e02ef476-7168-41c3-a64e-46f521c24fc7"
+Parent: "0509276e-7c71-46a0-819f-46a944135ee7"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/SitecoreShades/StandBlog/Presentation/Rendering Variants/Search Results/Home Blog/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    <div class="blog-post">
+                        <div class="blog-thumb">
+                        {{ sc_field i_item 'Image' }}
+                        </div>
+                        <div class="down-content">
+                          <span>  {{ sc_field i_item 'Title' }}</span>
+                          <a href="post-details.html"><h4>   {{ sc_field i_item 'SubTitle' }}</h4></a>
+                          <ul class="post-info">
+                            <li><a>   {{ sc_field i_item 'Author' }}</a></li>
+                            <li><a>  {{ datestring= sc_field i_item 'Date' }}  {{ date.parse datestring | date.to_string '%b %d, %Y' }}</a></li>
+                          </ul>
+                          <p>   {{ sc_field i_item 'Detail' }}</p>
+                          <div class="post-options">
+                            <div class="row">
+                              <div class="col-6">
+                                <ul class="post-tags">
+                                  <li><i class="fa fa-tags"></i></li>
+                                  {{ for blogtag in (sc_followmany i_item "BlogTag") }}
+                                  <li><a>{{blogtag.Title}}</a>,</li>
+                                  {{end}}
+                                </ul>
+                              </div>
+                              <div class="col-6">
+                                <ul class="post-share">
+                                  <li><i class="fa fa-share-alt"></i></li>
+                                   {{ for socialtag in (sc_followmany i_item "SocialTag") }}
+                                   <li><a>{{socialtag.Title}}</a>,</li>
+                                  {{end}}
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220810T074846Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6cfe955b-b2da-4f55-a10d-eae420c954bb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220810T080124Z

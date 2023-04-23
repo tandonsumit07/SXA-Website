@@ -1,0 +1,20 @@
+{
+	"namespace": "Feature.Hero",
+	"references": [ "*Foundation.*" ],
+	"items": {
+		"includes": [
+			{
+				"name": "Hero-Templates",
+				"path": "/sitecore/templates/Feature/SitecoreShades/Hero",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "Hero-Branches",
+				"path": "/sitecore/templates/Branches/Feature/SitecoreShades/Hero",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			}
+		]
+	}
+}

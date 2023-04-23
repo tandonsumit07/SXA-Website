@@ -1,0 +1,42 @@
+﻿---
+ID: "1e64d8f7-60f7-4ce1-b6f8-57bbf0e3dac0"
+Parent: "5d053989-bcfc-43ef-a030-85e18c044742"
+Template: "f7653f31-6f17-4daa-9217-8e116babc927"
+Path: /sitecore/media library/Themes/SitecoreShades/StandBlog/Site theme name
+SharedFields:
+- ID: "384c2d3c-3e34-4493-9cb2-ade68caf0da2"
+  Hint: BaseLayout
+  Value: |
+    {05BFBCDF-4DA5-414A-8651-A221AB3F5F0F}
+    {9C1D66B3-6828-4759-9EEC-D68A7A2CE248}
+    {DF95EF99-4AFB-4E59-A341-2CC147120344}
+    {06401E9B-A3C5-4EB1-A8BA-A66658E157BC}
+    {1FF2E882-18C3-4FF3-8B1A-736ECA929C5F}
+    {C7F3C097-9A71-4701-B8A9-0C6740FBF84E}
+    {D889F096-AFAB-4539-9E73-4DD3E05FCEC9}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220802T162859Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e572a5f8-7d8e-4a00-96e5-e0bde7b10de0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220802T162907Z

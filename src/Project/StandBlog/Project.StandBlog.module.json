@@ -1,0 +1,26 @@
+{
+	"namespace": "Project.StandBlog",
+	"references": [ "*Feature.*" ],
+	"items": {
+		"includes": [
+			{
+				"name": "Content-StandBlog",
+				"path": "/sitecore/content/SitecoreShades/StandBlog",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "MediaLibrary-Themes",
+				"path": "/sitecore/media library/Themes/SitecoreShades/StandBlog",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "StandBlog-Branches",
+				"path": "/sitecore/templates/Branches/Feature/SitecoreShades",
+				"scope": "SingleItem",
+				"allowedPushOperations": "createUpdateAndDelete"
+			}
+		]
+	}
+}

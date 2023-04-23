@@ -1,0 +1,39 @@
+﻿---
+ID: "f21e1088-2c4c-41b4-b9fd-f3b43dbd4637"
+Parent: "38dbec29-7bc2-4b26-9db8-4d97d66f4a4c"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/SitecoreShades/StandBlog/Presentation/Rendering Variants/Search Results/Recent Post/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+      <a href="post-details.html">
+                              <h5> {{ sc_field i_item 'SubTitle' }}</h5></a>
+                              <span>  {{ datestring= sc_field i_item 'Date' }}  {{ date.parse datestring | date.to_string '%b %d, %Y' }}</span>
+                    
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220811T184714Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "362d356e-3471-468c-95c6-e77173a3e389"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220811T185225Z

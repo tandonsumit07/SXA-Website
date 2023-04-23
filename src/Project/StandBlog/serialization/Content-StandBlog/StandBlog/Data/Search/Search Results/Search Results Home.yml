@@ -1,0 +1,37 @@
+﻿---
+ID: "82f74a79-e4ad-49e6-8465-7871532f9d03"
+Parent: "c8e6b295-b1af-43f8-a7ea-3a94995e0d37"
+Template: "a06f7130-041d-46bb-8c29-95a2dc00c26a"
+Path: /sitecore/content/SitecoreShades/StandBlog/Data/Search/Search Results/Search Results Home
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220810T074135Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6eea3560-2787-4239-9a2e-e74a34620545"
+    - ID: "904cb4ca-42d1-4690-8a99-9ecf22855e88"
+      Hint: ResultsNotFoundText
+      Value: Blogs are not found
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220811T124423Z

@@ -1,0 +1,117 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{641F5DBD-2F4F-4640-8A8C-6E49E62B8098}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		NuGet.config = NuGet.config
+		README.md = README.md
+		sitecore.json = sitecore.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{4A4C19D9-A05B-44C1-91F7-8DA64874EB11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{8D8A4CA9-27A8-4090-A48E-A2ACEE81FC3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{97BA0F69-A34F-4777-A650-09AD7B52607C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StandBlog", "StandBlog", "{D4D2C3C4-E490-4EE8-A557-BBFFBA24FC06}"
+	ProjectSection(SolutionItems) = preProject
+		src\Project\StandBlog\Project.StandBlog.module.json = src\Project\StandBlog\Project.StandBlog.module.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC.Project.StandBlog", "src\Project\StandBlog\code\SC.Project.StandBlog.csproj", "{D1ACCB37-1689-456A-BD98-7D2C08711A86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serilalization", "Serilalization", "{216AA242-786D-49F7-9AFB-2F05E8D0D8C1}"
+	ProjectSection(SolutionItems) = preProject
+		src\Foundation\Serialization\Foundation.SitecoreShades.module.json = src\Foundation\Serialization\Foundation.SitecoreShades.module.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScribanExtensions", "ScribanExtensions", "{B400BE86-FF4A-4353-B66C-FC16A23201D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foundation.SitecoreShades.ScribanExtensions", "src\Foundation\ScribanExtensions\code\Foundation.SitecoreShades.ScribanExtensions.csproj", "{F9A87989-9A7C-4DA7-AF08-C91129CEE448}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{88F79FA1-136E-4038-A519-B32383C28900}"
+	ProjectSection(SolutionItems) = preProject
+		src\Project\Website\Project.Website.module.json = src\Project\Website\Project.Website.module.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC.Project.Website", "src\Project\Website\code\SC.Project.Website.csproj", "{68094B51-C064-4FF7-9EC3-4E8B5BD4AA7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hero", "Hero", "{7B8FFF9E-4AC4-42CC-A8CD-E893D48C8397}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Hero\Feature.Hero.module.json = src\Feature\Hero\Feature.Hero.module.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog", "Blog", "{AFA0A16F-C450-4338-BDAC-2F2A38144F2F}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Feature.Blog.module.json = src\Feature\Blog\Feature.Blog.module.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.SitecoreShades.Blog", "src\Feature\Blog\code\Feature.SitecoreShades.Blog.csproj", "{679F78FF-D483-4016-B90E-E3FB0DEED13B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.SitecoreShades.Hero", "src\Feature\Hero\code\Feature.SitecoreShades.Hero.csproj", "{66DF023C-99DF-4093-9DFE-029A2CBF80D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Search", "Search", "{0DCCA281-FEFB-45E0-A060-39807E94C8C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foundation.SitecoreShades.Search", "src\Foundation\Search\code\Foundation.SitecoreShades.Search.csproj", "{8C423186-0265-470A-B271-DE89A68E2E92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1ACCB37-1689-456A-BD98-7D2C08711A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1ACCB37-1689-456A-BD98-7D2C08711A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1ACCB37-1689-456A-BD98-7D2C08711A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1ACCB37-1689-456A-BD98-7D2C08711A86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A87989-9A7C-4DA7-AF08-C91129CEE448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A87989-9A7C-4DA7-AF08-C91129CEE448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A87989-9A7C-4DA7-AF08-C91129CEE448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A87989-9A7C-4DA7-AF08-C91129CEE448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68094B51-C064-4FF7-9EC3-4E8B5BD4AA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68094B51-C064-4FF7-9EC3-4E8B5BD4AA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68094B51-C064-4FF7-9EC3-4E8B5BD4AA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68094B51-C064-4FF7-9EC3-4E8B5BD4AA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{679F78FF-D483-4016-B90E-E3FB0DEED13B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{679F78FF-D483-4016-B90E-E3FB0DEED13B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{679F78FF-D483-4016-B90E-E3FB0DEED13B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{679F78FF-D483-4016-B90E-E3FB0DEED13B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66DF023C-99DF-4093-9DFE-029A2CBF80D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66DF023C-99DF-4093-9DFE-029A2CBF80D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66DF023C-99DF-4093-9DFE-029A2CBF80D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66DF023C-99DF-4093-9DFE-029A2CBF80D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C423186-0265-470A-B271-DE89A68E2E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C423186-0265-470A-B271-DE89A68E2E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C423186-0265-470A-B271-DE89A68E2E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C423186-0265-470A-B271-DE89A68E2E92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4D2C3C4-E490-4EE8-A557-BBFFBA24FC06} = {4A4C19D9-A05B-44C1-91F7-8DA64874EB11}
+		{D1ACCB37-1689-456A-BD98-7D2C08711A86} = {D4D2C3C4-E490-4EE8-A557-BBFFBA24FC06}
+		{216AA242-786D-49F7-9AFB-2F05E8D0D8C1} = {97BA0F69-A34F-4777-A650-09AD7B52607C}
+		{B400BE86-FF4A-4353-B66C-FC16A23201D4} = {97BA0F69-A34F-4777-A650-09AD7B52607C}
+		{F9A87989-9A7C-4DA7-AF08-C91129CEE448} = {B400BE86-FF4A-4353-B66C-FC16A23201D4}
+		{88F79FA1-136E-4038-A519-B32383C28900} = {4A4C19D9-A05B-44C1-91F7-8DA64874EB11}
+		{68094B51-C064-4FF7-9EC3-4E8B5BD4AA7A} = {88F79FA1-136E-4038-A519-B32383C28900}
+		{7B8FFF9E-4AC4-42CC-A8CD-E893D48C8397} = {8D8A4CA9-27A8-4090-A48E-A2ACEE81FC3F}
+		{AFA0A16F-C450-4338-BDAC-2F2A38144F2F} = {8D8A4CA9-27A8-4090-A48E-A2ACEE81FC3F}
+		{679F78FF-D483-4016-B90E-E3FB0DEED13B} = {AFA0A16F-C450-4338-BDAC-2F2A38144F2F}
+		{66DF023C-99DF-4093-9DFE-029A2CBF80D8} = {7B8FFF9E-4AC4-42CC-A8CD-E893D48C8397}
+		{0DCCA281-FEFB-45E0-A060-39807E94C8C3} = {97BA0F69-A34F-4777-A650-09AD7B52607C}
+		{8C423186-0265-470A-B271-DE89A68E2E92} = {0DCCA281-FEFB-45E0-A060-39807E94C8C3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {717FF486-DF7A-4BC5-A4D4-8052E54F7C67}
+	EndGlobalSection
+EndGlobal
